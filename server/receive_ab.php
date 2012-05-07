@@ -21,9 +21,8 @@ if(isset($_REQUEST)){
 } else {
 	fwrite($fh, "no request obj\n\n");
 }
-$post_body = file_get_contents('php://input');
-$ini = strpos($post_body,"<SenderAddress>tel:+");
-fwrite($fh, "ini: $ini\n");
+
+
 
 fclose($fh);
 ?>

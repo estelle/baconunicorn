@@ -21,8 +21,8 @@ if(!is_dir($folder))
     exit();
   }
 $db_filename = $folder . "/". "mmslistner.db";
-//$post_body = file_get_contents('php://input');
-$post_body = file_get_contents( "test_mms.txt");
+$post_body = file_get_contents('php://input');
+//$post_body = file_get_contents( "test_mms.txt");
 fwrite($fh, $post_body."\n\n");
 
 if ( file_exists( $db_filename) ){

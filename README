@@ -4,4 +4,8 @@ This was made by Estelle Weyl, Stacie Hibino and Anna Billstrom for the AT & T H
 
 This will geolocate you, and add photos to your location, as a "geo-locator cache game". 
 
+Client: [localhost]/client
+location: index.html
+server: [localhost/server/
+listener for mms: [localhost]/server/receiveMMS.php
 

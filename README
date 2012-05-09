@@ -9,3 +9,7 @@ location: index.html
 server: [localhost/server/
 listener for mms: [localhost]/server/receiveMMS.php
 
+To implement:
+1. update the client/config.php with AT & T short code, etc.
+2. update the server/config.php with apikey/secret/short code
+

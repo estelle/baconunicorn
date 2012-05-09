@@ -32,10 +32,10 @@ $provider = ProviderFactory::init(array(
     # clientModelScope is the string of api scopes your application wants access to.
 
 
-    "apiKey"            => "4d95839555684dae0773c84f8d401112",
-    "secretKey"         => "46962d961aa0984b",
+    "apiKey"            => "XXX", /* your api key from at & t */
+    "secretKey"         => "xxx", /* your secret from at & t */
     "localServer"       => "http://www.bananecom/baconunicorn/server",
-    "shortCode"         => "80712765",
+    "shortCode"         => "xxx", /* your shortcode */
     "apiHost"           => "https://api.att.com",
     "clientModelScope"  => "SMS,MMS"
 

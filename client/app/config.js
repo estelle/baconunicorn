@@ -40,8 +40,8 @@ Ext.apply(SampleApps.MMS.App3.config, {
 
 
 
-    shortCode         : 80712765,
-    defaultPhoneNbr   : 4157108526,
+    shortCode         : xxx, /* your shortcode provided by at&t */
+    defaultPhoneNbr   : xxx, /* your phone # */
     errorTitle        : 'ERROR',
     successTitle      : 'SUCCESS',
     invalidPhoneMsg   : 'Phone number is not valid.  Please re-enter. <br/>Example: 14258028620, 425-802-8620, 4258028620',
